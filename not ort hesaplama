@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class x {
+    public static void main(String[] args) {
+        int a,b,c,d,e,f,g,h,j,k,l,m,n ;
+        Scanner input = new Scanner(System.in);
+        System.out.println("NOT HESAPLAMA PROGRAMINA HOŞGELDİNİZZ");
+        System.out.println("MATEMATIK ORTALAMANIZI GIRINIZ");
+        a = input.nextInt();
+        System.out.println("TURKCE ORTALAMANIZI GIRINIZ");
+        b = input.nextInt();
+        System.out.println("FIZIK ORTALAMANIZI GIRINIZ");
+        c = input.nextInt();
+        System.out.println("KIMYA ORTALAMANIZI GIRINIZ");
+        d = input.nextInt();
+        System.out.println("BIYOLOJI ORTALAMANIZI GIRINIZ");
+        e = input.nextInt();
+        System.out.println("TARIH ORTALAMANIZI GIRINIZ");
+        f = input.nextInt();
+        System.out.println("COGRAFYA ORTALAMANIZI GIRINIZ");
+        g = input.nextInt();
+        System.out.println("FELSEFE ORTALAMANIZI GIRINIZ");
+        h = input.nextInt();
+        System.out.println("DIN ORTALAMANIZI GIRINIZ");
+        j = input.nextInt();
+        System.out.println("GORSEL SANATLAR / MUZIK ORTALAMANIZI GIRINIZ");
+        k = input.nextInt();
+        System.out.println("BEDEN EGITIMI NOT ORTALAMANIZI GIRINIZ");
+        l = input.nextInt();
+        System.out.println("1. YABANCI DIL ORTALAMANIZI GIRINIZ");
+        m = input.nextInt();
+        System.out.println("2.YABANCI DIL ORTALAMANIZI GIRINIZ");
+        n = input.nextInt();
+        int p = a*6 + b*5 + c*4 + d*4 + e*4 + f*2 + g*2 + h*2 + j*2 + k + l*2 + m*4 + n*2;
+        double q = p/40;
+        System.out.println(q);
+        String r = (q >= 60) ? "GECTINIZ" : "KALDINIZ";
+        System.out.println(r);
+
+
+
+    }
+}
